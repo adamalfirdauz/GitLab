@@ -29,7 +29,7 @@ Gitlab terdiri dari 4 versi, yaitu *Gitlab Community Edition*, *Gitlab Enterpris
 #### Proses Instalasi :
 1. Login kedalam server menggunakan SSH. Untuk pengguna windows bisa menggunakan aplikasi [PuTTY](http://www.putty.org/), sedangkan pengguna Linux atau UNIX bisa langsung melalui terminal.
     ```
-    $ ssh adam@172.18.88.88 -p 22
+    $ ssh student@localhost -p 2222
     ```
 
 2. Pastikan seluruh paket sistem *up-to-date*, dan install seluruh kebutuhan sistem seperti  `openssh-server`, `ca-certificates`, `postfix`, `Ruby`, dan `PostgreSQL`.
@@ -38,6 +38,7 @@ Gitlab terdiri dari 4 versi, yaitu *Gitlab Community Edition*, *Gitlab Enterpris
     $ sudo apt-get -y install curl openssh-server ca-certificates postfix
     ```
     Pada saat menginstall postfix kita akan diminta untuk mengonfigurasikan mail server.
+    ![enter image description here](GitLab/img/postfix-conf-01.png)
     
 
 3. Unduh **GitLab** ke dalam direktori kita. 
