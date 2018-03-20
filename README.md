@@ -75,7 +75,7 @@ Gitlab terdiri dari 4 versi, yaitu *Gitlab Community Edition*, *Gitlab Enterpris
     http://localhost:8888
     ```
     Pada saat pertama kali membuka **GitLab** akan muncul form untuk mengubah password root. Isi dan *submit* password baru tersebut.
-    
+    <div align="center"><img src="https://github.com/adamalfirdauz/GitLab/raw/master/img/image.png"/></div>
 
 # Konfigurasi
 [`^ kembali ke atas ^`](#)
