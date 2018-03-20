@@ -37,9 +37,14 @@ Gitlab terdiri dari 4 versi, yaitu *Gitlab Community Edition*, *Gitlab Enterpris
     $ sudo apt-get update
     $ sudo apt-get -y install curl openssh-server ca-certificates postfix
     ```
-    Pada saat menginstall postfix kita akan diminta untuk mengonfigurasikan mail server.
-    ![enter image description here](GitLab/img/postfix-conf-01.png)
-    
+    Pada saat menginstall postfix akan muncul kotak dialog yang meminta kita  untuk mengonfigurasikan mail server.
+    - Kotak dialog yang pertama akan memberikan keterangan mengenai maksud dari pilihan yang akan muncul pada dialog berikutnya. Pilih **OK**.
+	    <div align="center"><img src="https://github.com/adamalfirdauz/GitLab/raw/master/img/postfix-conf-01.png"></div>
+    - Selanjutnya akan diminta untuk memilih tipe konfigurasi email, pilih saja Internet Site.
+	    <div align="center"><img src="https://github.com/adamalfirdauz/GitLab/raw/master/img/postfix-conf-02.png"></div>
+	    - Kemudian beri nama domain, karena pada kali ini tidak ada domain yang disiapkan serta bersifat lokal, maka isi saja dengan *gitlab.local*
+	<div align="center"><img src="https://github.com/adamalfirdauz/GitLab/raw/master/img/postfix-conf-03.png"></div>
+        
 
 3. Unduh **GitLab** ke dalam direktori kita. 
     ```
