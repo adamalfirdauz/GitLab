@@ -94,7 +94,32 @@ Gitlab terdiri dari 4 versi, yaitu *Gitlab Community Edition*, *Gitlab Enterpris
 
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
+1. Sebagai salah satu manajer repository, **GitLab** memiliki segudang fitur yang ditawarkan kepada para penggunanya. Namun sebelum merasakan fitur-fitur tersebut, pengguna terlebih dulu harus memiliki akun **GitLab**. Untuk melakukan registrasi akun, cukup membuka halaman awal.
+<div align="center"><img src="https://github.com/adamalfirdauz/GitLab/raw/master/img/fitur-01-register.png"/></div>
 
+2. Setelah melakukan registrasi, kita perlu login untuk masuk ke dalam **GitLab**.
+
+<div align="center"><img src="https://github.com/adamalfirdauz/GitLab/raw/master/img/fitur-02-login.png"/></div>
+
+3. Setelah masuk, kita akan berada pada halaman *dashboard*. Pada halaman ini kita dapat Pada halaman ini kita dapat membuat *project* dan grup. 
+<div align="center"><img src="https://github.com/adamalfirdauz/GitLab/raw/master/img/fitur-03-awal.png"/></div>
+
+4. Membuat *project*.  
+	1. *Blank Project*, membuat proyek kosong.
+		<div align="center"><img src="https://github.com/adamalfirdauz/GitLab/raw/master/img/fitur-04-blank.png"/></div>
+	2. *Create from template*, membuat proyek dari template yang telah disediakan oleh gitlab.
+		 <div align="center"><img src="https://github.com/adamalfirdauz/GitLab/raw/master/img/fitur-04-template.png"/></div>
+	 3. *Import project*, memasukan proyek dari aplikasi manajemen repositori lain. 
+		 <div align="center"><img src="https://github.com/adamalfirdauz/GitLab/raw/master/img/fitur-04-import.png"/></div>
+5. Membuat grup.
+	1. Grup adalah kumpulan dari beberapa proyek. Jika anda mengatur proyek anda di bawah grup, maka ini akan bekerja seperti folder. Anda dapat mengelola izin anggota grup dan akses ke setiap proyek dalam grup.
+	<div align="center"><img src="https://github.com/adamalfirdauz/GitLab/raw/master/img/fitur-05-grup.png"/></div>
+
+	2. Pada dashboard grup, anda dapat membuat proyek baru yang nantinya akan dikerjakan bersama oleh anggota grup. 
+	<div align="center"><img src="https://github.com/adamalfirdauz/GitLab/raw/master/img/fitur-05-grup-dashboard.png"/></div>
+
+	3. Anda juga dapat mengatur keanggotaan grup melalui menu *Members*
+	<div align="center"><img src="https://github.com/adamalfirdauz/GitLab/raw/master/img/fitur-05-grup-member.png"/></div>
 
 
 # Pembahasan
