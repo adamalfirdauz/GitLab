@@ -100,33 +100,53 @@ Gitlab terdiri dari 4 versi, yaitu *Gitlab Community Edition*, *Gitlab Enterpris
 # Pembahasan
 [`^ kembali ke atas ^`](#)
 
-**Prestashop** ditulis dalam bahasa pemrograman `PHP` yang support untuk penggunaan MySQL. Sebagai salah satu CMS yang paling banyak digunakan di dunia, aplikasi ini menawarkan berbagai kelebihan, diantaranya :
-- Aplikasi memiliki panel administrasinya mudah digunakan dan fleksibel, sehingga dapat disesuaikan dengan kebutuhan.
-- Mendukung berbagai layanan pembayaran utama, seperti `PayPal`, `VISA`, `MasterCard`, dan `Maestro`.
-- Diterjemahkan dalam banyak bahasa, termasuk Bahasa Indonesia.
-- Memiliki desain yang *responsive*, sehingga dapat dibuka menggunakan *device* apapun.
-- Memiliki lebih dari tiga ratus fitur untuk memudahkan pengguna.
-- Banyak pengguna yang berkontribusi pada *discussion boards* dan sejenisnya, sehingga masalah yang dihadapi pengguna dapat cepat terselesaikan.
+**Gitlab CE** merupakan versi komunitas dari Gitlab dimana semua kode sumbernya bersifat open source, sehingga dapat diakses oleh semua kalangan kemudian dari pada itu dapat membantu pengembangannya. Penulisan kode Gitlab Gitilab ditulis dengan menggunakan bahasa Ruby. Tentunya Gitlab memiliki kelebihan dan kekurangan tersendiri seperti yang dituliskan dibawah ini:
+#### Kelebihan
+1. Memiliki fitur *public* dan *private* sehingga user dapat memilih modenya sesuai dengan kebutuhannya. Jika kita menggunakan status _private_maka project kita hanya dapat diubah dan dilihat oleh kita secara pribadi. Namun jika kita menggunakan status _public_ maka project kita dapat diubah, dilihat, dan diunduh oleh siapa saja.
+2. Unlimited Repo. Sehingga kita dapat membuat repo sesuai dengan kebutuhan kita, meskipun hanya berskala kecil
+3. Project Importing, kita tidak hanya dapat meng-import project dari Github saja, namun kita dpat meng-import project dari BitBucket, Google Code, Fogbugz, atau git repo dengan URL
+4.  API (_Aplication Programming Interface_  ) , Kita dapat mengontrol Gitlab dengan set API yang kuat.
+5. Gitlab didukung dengan LFS (  _Large File Storage_  ). Sehingga mempermudah pengguna yang ingin mengupload materi di repo secara gratis.
 
-Tentu saja, sebuah aplikasi pasti memiliki kekurangan. Kekurangan yang dimiliki **Prestashop** antara lain :
-- Penggunaan fitur atau modul yang lengkap menyebakan proses loading dari aplikasi ini menjadi sangat lambat
-- Penggunaan *resource* memory aplikasi ini cukup besar, terutama ketika menggunakan fitur atau modul yang lengkap.
-- Sebagian besar modul dan tema yang tersedia tidak gratis.
+#### Kekurangan
+1.  Jika kita mencari komunitas pengguna, kemungkinan komunitas Gitlab masih minim. Sehingga ketika kita menemukan suatu masalah mungkin sedikit lebih sulit dalam menemukan solusinya.
+2.  Gitlab belum mengizinkan untuk melakukan pegeditian yang dilakukan oleh pengguna hulu di cabang.
+3. Belum memiliki fungsi *drag and drop* seperti yang dimiliki leh Github.
+4. Gitlab juga belum mensupport penggunaan IPv6.
+5. Gitlab bellum memiliki kemampuan untuk menentukan pemilik kode sumber dan mengulas/reviewers dalam repository
 
-Jika dibandingkan dengan CMS sejenisnya seperti **Microweber**, CMS ini memiliki beberapa keunggulan dan kelemahan. Berikut adalah beberapa perbandingan antara kedua CMS ini :
-- **Microweber** menyediakan proses design yang fleksibel dengan fitur *Drag and Drop* tanpa batasan, sehingga pengguna bebas mengkreasikan tampilan websitenya. Sedangkan **Prestashop** hanya menyediakan fitur design berupa penggantian template dan logo, adapun template yang tersedia tidak gratis.
-- Modul atau plugin yang tersedia pada **Prestashop** jauh lebih banyak dibandingkan pada **Microweber**.
-- **Prestashop** memiliki pengguna yang jauh lebih banyak daripada **Microweber** yang aktif pada forum-forum diskusi untuk membantu pengguna pemula.
-- **Microweber** lebih ringan daripada **Prestashop** karena modulnya yang sedikit.
-- Proses instalasi **Prestashop** lebih mudah karena berbasis PHP saja, sedangkan **Microweber** menggunakan framework laravel sehingga proses instalasi lebih sulit, terutama dalam hal *dependency*.
+## Gitlab Vs Github
+-   **Penawaran Public dan Private Project**
 
+Fitur  _public_  dan  _private_  yang disediakan github dapat diakses dan digunakan secara gratis. Tidak seperti Github yang hanya menyediakan layanan  _public_  saja yang gratis, sementara layanan  _private_  berbayar.
+
+-   **Snippet support**
+
+Gitlab memiliki fitur  _Snippet Support_  , yaitu fitur yang memungkinkan pengguna dapat berbagi potongan kecil source code project tanpa berbagi keseluruhan project.
+
+-   **Issue Tracking atau Pelacakan Masalah**
+
+Gitlab menawarkan fitur Issue Tracker yang kuat sehingga kita dapat melakukan perubahan dan pengalihan terhadap beberapa masalah dalam waktu yang sama. Github pun menawarkan fitur Github Issue yang berfungsi untuk melakukan pelacakan masalah dalam project.
+
+-   **Progress Status**
+
+Dalam Gitlab, Para pengembang dapat memberikan label dalam project yang sedang dikerjakan dengan label  _"Work in Progress"_  sehingga memberikan kejelasan atas Project yang sedang dikerjakan. Ini memang sebuah hal yang kecil , namun ini pasti akan sangat membantu para pengembang aplikasi dan web karena Fitur ini mencegah kode yang sedang digarap digabung dengan kode lain sebelum code tersebut benar-benar selesai.
+
+-   **Integrasi**
+
+Github dan Gitlab mengintegrasikan versi sistem kontrol milik kita dengan aplikasi lain untuk memperkaya alur kerja dan dapat meningkatkan produktivitas pengembangan kita.
+
+-   **Github Comunnity**
+
+Jika Kita ingin mnencari komunitas pengembang aplikasi dan web , kemungkinan besar Github adalah tempat yang lebih baik karena Github menempatkan dirinya dalam komunitas tersebut. Apalagi popularitasnya didorong dengan para anggota komunitas Github yang aktif.
 
 
 # Referensi
 [`^ kembali ke atas ^`](#)
 
-1. [About PrestaShop](https://www.prestashop.com/) - PrestaShop
-2. [How to Log Into a VPS with PuTTY on Windows](https://www.digitalocean.com/community/tutorials/how-to-log-into-a-vps-with-putty-windows-users) - DigitalOcean
-3. [How to Install PrestaShop on Ubuntu 16.04](http://idroot.net/linux/install-prestashop-ubuntu-16-04/) - idroot
-4. [One Click Install PrestaShop](https://www.prestashop.com/blog/en/how-to-install-prestashop/) - PrestaShop
-5. [PrestaShop Review](http://whichshoppingcart.com/prestashop.html) - whishshoppingcart
+
+1. [Maintenance Command](https://docs.gitlab.com/omnibus/maintenance/README.html) - GitLab
+2. [Github Vs Gitlab kamu pilih mana?](https://www.codepolitan.com/github-vs-gitlab-kamu-pilih-mana-58808e62c2b28) - CodePolitan
+3. [Gitlab](https://id.wikipedia.org/wiki/GitLab) - Wikipedia
+4. [GitLab compared to other tools](https://about.gitlab.com/comparison/) - GitLab
+5. [How To Install Gitlab on Debian 8 (Jessie)](https://www.howtoforge.com/tutorial/how-to-install-gitlab-on-debian-8/) - HowToForge
