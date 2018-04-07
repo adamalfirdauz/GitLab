@@ -13,7 +13,7 @@
 
 Gitlab terdiri dari 4 versi, yaitu *Gitlab Community Edition*, *Gitlab Enterprise Edition*, *Gitlab.com* , dan *Gitlab CI*. Pada kali ini kita akan menginstall ***GitLab Community Edition***.
 
-# Instalasi
+# Instalasi & konfigurasi
 [`^ kembali ke atas ^`](#)
 
 #### Kebutuhan Sistem :
@@ -77,7 +77,7 @@ Gitlab terdiri dari 4 versi, yaitu *Gitlab Community Edition*, *Gitlab Enterpris
     Pada saat pertama kali membuka **GitLab** akan muncul form untuk mengubah password root. Isi dan *submit* password baru tersebut.
     <div align="center"><img src="https://github.com/adamalfirdauz/GitLab/raw/master/img/image.png"/></div>
 
-# Konfigurasi
+<!-- # Konfigurasi
 [`^ kembali ke atas ^`](#)
 
 
@@ -90,7 +90,7 @@ Gitlab terdiri dari 4 versi, yaitu *Gitlab Community Edition*, *Gitlab Enterpris
 
 # Otomatisasi
 [`^ kembali ke atas ^`](#)
-
+ -->
 
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
